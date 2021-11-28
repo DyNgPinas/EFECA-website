@@ -415,6 +415,9 @@ About.html
   /*
   about.html
   */
+  .about_cont{
+    padding:2vh;
+  }
   
   .about_class{
     font-size: 2vh;
