@@ -273,6 +273,15 @@ About.html
   text-align: justify;
 }
 
+/*
+policy.html
+*/
+.policy{
+  text-align: justify;
+  padding: 5vh;
+}
+
+
 @media (max-width: 1000px){
   nav{
     padding: 0 40px 0 50px;
@@ -322,6 +331,11 @@ About.html
   
   nav{
   height: 10%;
+  }
+
+  .preview{
+    height: 100%;
+    width:70%;
   }
   
   .box{
@@ -415,9 +429,13 @@ About.html
   /*
   about.html
   */
+
+  .about_cont{
+   padding: 1vh;
+  }
   
   .about_class{
-    font-size: 2.25vh;
+    font-size: 2vh;
   }
   
 }
