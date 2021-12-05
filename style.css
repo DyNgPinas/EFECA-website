@@ -112,7 +112,7 @@ input[type="checkbox"]{
 
 .preview{
 	height: 100%;
-	width:80%;
+	width:70%;
   vertical-align:middle;
 }
 
@@ -429,9 +429,8 @@ policy.html
   /*
   about.html
   */
-
   .about_cont{
-   padding: 1vh;
+    padding: 1vh;
   }
   
   .about_class{
