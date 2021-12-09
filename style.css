@@ -114,19 +114,30 @@ input[type="checkbox"]{
 	height: 100%;
 	width:70%;
   vertical-align:middle;
+  animation: fade_in 2s;
+}
+
+@keyframes fade_in {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+  
 }
 
 .playstore {
+  margin-top: 20vh;
 	height:auto;
 	width:75%;
   vertical-align:middle;
+  animation-name: fade_in;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction:alternate-reverse;
 }
 
-.soon{
-	margin-top:20%;
-	font-family: 'Aclonica', sans-serif;
-  color: #fff;
-}
 
 .newbr{
   display: block;
@@ -136,7 +147,13 @@ input[type="checkbox"]{
 .drdl{
   color: #60300C;
   font-size: 50%;
+  animation-name: fade_in;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
 }
+
 
 /*
 tutorial.html
@@ -226,6 +243,7 @@ FAQs.html
   margin-bottom: 0em;
 }
 
+
 /*
 Features.html
 */
@@ -282,6 +300,8 @@ policy.html
 }
 
 
+
+
 @media (max-width: 1000px){
   nav{
     padding: 0 40px 0 50px;
@@ -333,10 +353,13 @@ policy.html
   height: 10%;
   }
 
+
   .preview{
     height: 100%;
     width:70%;
   }
+
+
   
   .box{
   	width: 100%;
@@ -357,10 +380,20 @@ policy.html
   	height: 5vh;
   }
 
-  
-  .soon{
-    margin-top:10%;
+  .playstore {
+    margin-top: 5vh;
+	  height:auto;
+	  width:80%;
   }
+
+  .drdl{
+    font-size: 35%;
+  }
+
+
+
+  
+  
   
   /*
   tutorial.html
