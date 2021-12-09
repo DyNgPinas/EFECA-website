@@ -69,7 +69,7 @@ for (i = 0; i < coll.length; i++) {
 /* Index.html */
 
 function download(){
-	if (confirm("For the better compatability of EFECA in your device, it is better to download from Playstore. Do you still want to proceed?")) {
+	if (confirm("For the better compatability of EFECA on your device, it is better to download from Playstore. Do you still want to proceed?")) {
 		window.location.href='https://bit.ly/efecadownload';
 	  } else {
 		
