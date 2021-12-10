@@ -17,7 +17,7 @@ const answers = [
 	"EFECA is free to download and use. It doesn't have ads. However, if you want to help the developer, you can simply just subscribe and follow 'Dy ng Pinas' Youtube channel and Facebook page.",
 	"You won't get ban by using EFECA since it is not automated and also not a scripting. If you want to be sure, you may ask any of the moderators of Axie Infinity on their Official Discord Channel",
 	"No, EFECA is only a fan made app and has no connection with the developers of Axie Infinity."
-]
+];
 
 let rnd = questions.length;
 
@@ -74,4 +74,23 @@ function download(){
 	  } else {
 		
 	  }
+}
+
+/* features.html */
+
+function mode() {
+  var checkBox = document.getElementById("sw");
+  var mode = document.getElementById("mode");
+  var pic = document.getElementById("ss");
+  var pic2 = document.getElementById("efeca");
+
+  if (checkBox.checked == true){
+    mode.innerHTML = "Lite mode";
+	pic.src = "ss2.webp";
+	pic2.src = "lite.webp";
+  } else {
+    mode.innerHTML = "Default mode";
+	pic.src = "ss1.webp";
+	pic2.src = "default.webp";
+  }
 }

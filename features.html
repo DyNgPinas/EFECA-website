@@ -28,18 +28,21 @@
       </nav>
       
       
-      <div class="container2">
+      <div class="container">
       	<div class="box">
-         <h5>Lite Mode</h5>
-         <img class="lite" src="lite.webp">
+            <img class="default" id="efeca" src="default.webp">
          </div>
       	<div class="box">
-         <h5>Default Mode</h5>
-         <img class="default" src="default.webp">
+            <img class="screenshot" id="ss" src="ss1.webp" alt="screenshot">
+            <h5 id="mode">Default Mode</h5>
+            <label class="switch">
+               <input type="checkbox" onclick="mode()" id="sw">
+               <span class="slider round"></span>
+             </label>
          </div>
       </div>
       
-      <div class="bot_cont">
+      <footer class="bot_cont">
       	<a href="https://bit.ly/dyngpinasfb">
          <img class="icons" src="fb.webp" alt="fb">
          </a>
@@ -48,6 +51,8 @@
          </a>
       	<br>
       	<a class="terms" href="policy.html">Privacy Policy</a>
-      </div>
+      </footer>
+      
+      <script src="script.js"></script>
    </body>
 </html>
